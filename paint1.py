@@ -14,7 +14,7 @@ class Frame(wx.Frame):
         super().__init__(*args, **kw)
 
         self.SetSize((800, 528))
-        self.SetTitle('Paint')
+        self.SetTitle('Paint Analog')
         self.SetMenuBar(Up_Menu())
 
         self.SetBackgroundColour(wx.Colour(32, 32, 32, 1))
